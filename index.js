@@ -9,7 +9,5 @@ if (yourAge < 18) {
 } else if (yourAge > 65) {
   let discountSeniors = (travelPrice / 100) * 60
   alert("You can have a 40% discount!")
-  console.log("Total with 40% discount = " + discountSeniors)  
+  console.log("Total with 40% discount = " + ("£" + discountSeniors.toFixed(2)))  
 } else console.log("Total Travel Price = " + ("£" + travelPrice.toFixed(2)))
-
-// ("Mac USA-UK Index =" + Math.round(usaUkIndex * 100) + "%")
